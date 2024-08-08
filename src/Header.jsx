@@ -21,8 +21,8 @@ function Header() {
                 <div className="relative pl-24">
                     <CiSearch color="black" className="absolute top-2.5 m-1 left-24 transform -translate-y-1/2 text-neutral-500" />
                     <input
-                    className="pl-7 text-neutral-600"
-                    placeholder="Search for products.."
+                        className="pl-7 text-neutral-600"
+                        placeholder="Search for products.."
                     />
                     <div className="inline-flex gap-2 pt-1 pl-3">
                         <FaRegUser color="#696262"/>
@@ -37,9 +37,9 @@ function Header() {
                     <h1 className="pt-10 pb-5 text-5xl font-medium text-stone-700">
                         Elevate Your Style With <text className="text-black">David Moore</text> Where Leather Speaks Volumes
                     </h1>
-                    <text>
+                    <p>
                         Step Into The World Of Peter Sign, Where Leather Transcends Mere <br/> Fashion And Becomes A Symbol Of Individuality And Confidence. With <br/> A Commitment To Quality And Style
-                    </text>
+                    </p>
                     <div className="mt-6">
                         <button className="bg-stone-700 pl-4 pr-4 pt-1 pb-1 text-white">Shop Now</button>
                     </div>
@@ -47,7 +47,7 @@ function Header() {
                 <div className="ml-28 w-auto relative">
                     <img className="absolute pl-56 top-11 h-14" src={dots} />
                     <div style={{borderBottomLeftRadius: "30%", backgroundColor: "#D3A17E"}} className="w-64 h-80">
-                        <img className="h-72" src={pic} />
+                        <img className="h-80" src={pic} />
                     </div>
                     <img className="absolute -left-6 top-56 h-14" src={dots} />
                 </div>
